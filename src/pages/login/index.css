@@ -1,0 +1,29 @@
+.login-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-box .info {
+  color: #ffffff;
+}
+.login-box input {
+  outline: none;
+  width: 300px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.login-box button {
+  margin-top: 20px;
+  border: none;
+  width: 100px;
+  height: 24px;
+}
